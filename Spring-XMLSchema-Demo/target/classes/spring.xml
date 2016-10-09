@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:person="http://soft1010.com/schema/person"
+       xmlns:demo="http://soft1010.com/schema/demo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-           http://soft1010.com/schema/person
-           http://soft1010.com/schema/Person.xsd">
+           http://soft1010.com/schema/demo
+           http://soft1010.com/schema/demo/Person.xsd">
 
-    <person:person id="person" name="name1" age="1"></person:person>
+    <demo:person id="person" name="name1" age="1"></demo:person>
 </beans>
